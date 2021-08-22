@@ -1,0 +1,28 @@
+{
+  "name": "gallery_09_bundler",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://Olena-Horobets.github.io/gallery_09_bundler",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /gallery_09_bundler/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olena-Horobets/gallery_09_bundler.git"
+  },
+  "keywords": [],
+  "author": "Olena Horobets",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olena-Horobets/gallery_09_bundler/issues"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  }
+}
